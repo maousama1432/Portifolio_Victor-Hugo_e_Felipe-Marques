@@ -3,6 +3,7 @@
 ### Confira o Projeto Final em   
 Você pode acessar o projeto através do seguinte link:  
 [GameSphere](https://maousama1432.github.io/Portifolio_Victor-Hugo_e_Felipe-Marques/)  // Pelo Git Pages
+
 [GameSphere](https://portifolio-victor-hugo-e-felipe-marques.vercel.app)  // Pela Vercel
 
 ### Descrição do Projeto  
