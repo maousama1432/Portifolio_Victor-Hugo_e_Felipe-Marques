@@ -6,6 +6,7 @@
   <title>Portfolio Victor and Felipe</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link type="icon" rel="icon" href="images/logo.png" />
 </head>
 <body class="bg-gray-100 text-gray-900">
   <!-- Header -->
@@ -13,7 +14,9 @@
   </header>
 
   <!-- PlayStation Section -->
-  <div class="bg-cover bg-center text-white py-10" style="background-image: url('https://tm.ibxk.com.br/2023/11/09/09100313099051.jpg?ims=750x');">
+  <div class="relative bg-cover bg-center text-white py-10" style="background-image: url('https://tm.ibxk.com.br/2023/11/09/09100313099051.jpg?ims=750x');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-sm"></div>
+   
     <div class="relative container mx-auto">
       <h2 class="text-3xl font-bold text-center mb-6 text-white z-10"><i class="bi bi-playstation"></i> PlayStation</h2>
   
@@ -21,7 +24,7 @@
         <!-- Card 1 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/ca6Dr3k7PXKaDgEbhN9eODeD.png" 
+            src="images/the.jpg" 
             alt="The Last of Us" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -31,7 +34,7 @@
         <!-- Card 2 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://image.api.playstation.com/vulcan/img/rnd/202010/2217/p3pYq0QxntZQREXRVdAzmn1w.png" 
+            src="images/god.jpg" 
             alt="God of War" 
             class="rounded-t-lg w-full h h-90- md:h-48 object-cover"
           />
@@ -41,7 +44,7 @@
         <!-- Card 3 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://image.api.playstation.com/vulcan/ap/rnd/202409/2716/16b33fa9a5c7285ba86a035b4a1c5f8eb430b407eae35ffd.png" 
+            src="images/horizon.jpg" 
             alt="Horizon Zero Dawn" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -51,7 +54,7 @@
         <!-- Card 4 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://cdn1.epicgames.com/offer/4bc43145bb8245a5b5cc9ea262ffbe0e/EGS_MarvelsSpiderManRemastered_InsomniacGamesNixxesSoftware_S1_2560x1440-73702d11161b29a0b7c40a8b489b1808" 
+            src="images/spider.jpg" 
             alt="Spider-Man" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -63,14 +66,17 @@
   </div>
 
   <!-- Xbox Section -->
-  <div class="bg-cover bg-center text-white py-10" style="background-image: url('https://example.com/xbox-bg.jpg');">
+  <div class="relative bg-cover bg-center text-white py-10" style="background-image: url('https://cdn.selectgame.net/wp-content/uploads/2022/11/Xbox-Game-Pass-Banner-1.webp');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-sm"></div>
+   
+    
     <div class="relative container mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-6 text-green-500"><i class="bi bi-xbox"></i> Xbox</h2>
+      <h2 class="text-3xl font-bold text-center mb-6 text-white"><i class="bi bi-xbox"></i> Xbox</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-5">
         <!-- Card 1 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/halo-infinite.jpg" 
+            src="images/halo.jpg" 
             alt="Halo Infinite" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -80,7 +86,7 @@
         <!-- Card 2 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/forza-horizon.jpg" 
+            src="images/forza.jpg" 
             alt="Forza Horizon" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -90,7 +96,7 @@
         <!-- Card 3 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/gears-of-war.jpg" 
+            src="images/gear.jpg" 
             alt="Gears of War" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -100,7 +106,7 @@
         <!-- Card 4 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/sea-of-thieves.jpg" 
+            src="images/sea.jpg" 
             alt="Sea of Thieves" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -112,14 +118,17 @@
   </div>
 
   <!-- Nintendo Section -->
-  <div class="bg-cover bg-center text-white py-10" style="background-image: url('https://example.com/nintendo-bg.jpg');">
+  <div class="relative bg-cover bg-center text-white py-10" style="background-image: url('https://new-game-plus.fr/wp-content/uploads/2022/11/Mario-The-Lapins-Cretins-Sparks-of-Hope.jpg.webp');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-sm"></div>
+   
+    
     <div class="relative container mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-6 text-red-500"><i class="bi bi-nintendo-switch"></i> Nintendo</h2>
+      <h2 class="text-3xl font-bold text-center mb-6 text-white"><i class="bi bi-nintendo-switch"></i> Nintendo</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-5">
         <!-- Card 1 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/zelda.jpg" 
+            src="images/zelda.jpg" 
             alt="The Legend of Zelda: Breath of the Wild" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -129,7 +138,7 @@
         <!-- Card 2 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/super-mario-odyssey.jpg" 
+            src="images/mario.jpg" 
             alt="Super Mario Odyssey" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -139,7 +148,7 @@
         <!-- Card 3 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/splatoon.jpg" 
+            src="images/spa.jpg" 
             alt="Splatoon 2" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -149,7 +158,7 @@
         <!-- Card 4 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/animal-crossing.jpg" 
+            src="images/animal.jpg" 
             alt="Animal Crossing: New Horizons" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -161,14 +170,17 @@
   </div>
 
   <!-- PC Section -->
-  <div class="bg-cover bg-center text-white py-10" style="background-image: url('https://example.com/pc-bg.jpg');">
+  <div class="relative bg-cover bg-center text-white py-10" style="background-image: url('https://emeraldcorp.com.br/wp-content/uploads/2024/03/jogos-em-promocao-outono-steam-nuuvem.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-sm"></div>
+   
+   
     <div class="relative container mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-6 text-blue-500"><i class="bi bi-pc-display"></i> PC</h2>
+      <h2 class="text-3xl font-bold text-center mb-6 text-white"><i class="bi bi-pc-display"></i> PC</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-5">
         <!-- Card 1 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/cyberpunk.jpg" 
+            src="images/cyperpunk.jpg" 
             alt="Cyberpunk 2077" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -178,7 +190,7 @@
         <!-- Card 2 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/red-dead-redemption.jpg" 
+            src="images/reddead.jpg" 
             alt="Red Dead Redemption 2" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -188,7 +200,7 @@
         <!-- Card 3 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/witcher3.jpg" 
+            src="images/thewhitcher.jpg" 
             alt="The Witcher 3" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
@@ -198,7 +210,7 @@
         <!-- Card 4 -->
         <div class="bg-white text-gray-900 shadow-lg rounded-lg p-4 hover:bg-gray-200 hover:scale-105 transition duration-300 mb-4">
           <img 
-            src="https://example.com/valhallah.jpg" 
+            src="images/assasins.jpg" 
             alt="Assassin's Creed Valhalla" 
             class="rounded-t-lg w-full h-90 md:h-48 object-cover"
           />
