@@ -1,21 +1,33 @@
-# Delícias Animadas (McDonald's)
+## GameSphere  
 
-## Descrição do Projeto
-Delícias Animadas é um portfólio online que apresenta uma variedade de lanches e bebidas do McDonald's, junto com um pouco da história da marca. O site é responsivo e utiliza Bootstrap para garantir uma ótima experiência em dispositivos móveis e desktop.
+### Descrição do Projeto  
+**GameSphere** é um portfólio online que apresenta uma coleção de jogos para as principais plataformas: PlayStation, Xbox, Nintendo e PC. Cada seção destaca jogos icônicos, com imagens, descrições e detalhes para os fãs de cada console ou estilo. O site é responsivo, garantindo uma experiência fluida tanto em dispositivos móveis quanto em desktops.  
 
-## Tecnologias Utilizadas
-- **HTML5**: Para a estruturação do conteúdo.
-- **CSS3**: Para a estilização.
-- **JavaScript**: Para funcionalidades interativas.
-- **Bootstrap 5**: Para um layout responsivo e design moderno.
+### Tecnologias Utilizadas  
+- **HTML5**: Para a estruturação do conteúdo.  
+- **CSS3**: Para estilização, incluindo animações personalizadas.  
+- **Tailwind CSS**: Para facilitar a criação de um layout moderno e responsivo.  
+- **Bootstrap Icons**: Para os ícones representativos de cada plataforma.  
 
-## Imagens Utilizadas
-- Placa do McDonald's: `images/placa-mc.png`
-- Produtos dos cards disponíveis no menu: `images/img1.jpg`, `images/img2.jpg`, `images/img3.jpg`, `images/img4.jpg`, `images/img5.jpg`, `images/img6.jpg`, `images/img7.jpg`, `images/img8.jpg`, `images/img9.jpg`, `images/img10.jpg`, `images/img11.jpg`, `images/img12.jpg`.
+### Recursos do Projeto  
+- **Animação Personalizada**: A logo rotaciona continuamente para uma estética moderna.  
+- **Seções Temáticas**: Dividido por plataformas (PlayStation, Xbox, Nintendo e PC), cada uma com jogos exclusivos e visuais de destaque.  
+- **Cards de Jogos**: Apresentação com imagem, descrição e interatividade ao passar o mouse.  
 
-## Acesso ao Projeto
-Você pode acessar o projeto através do seguinte link: https://victorsolique.github.io/Desafio-Portifolio/
+### Imagens Utilizadas  
+- Logo do GameSphere: `images/logo.png`  
+- Imagens de jogos:  
+  - PlayStation: `images/the.jpg`, `images/god.jpg`, `images/horizon.jpg`, `images/spider.jpg`  
+  - Xbox: `images/halo.jpg`, `images/forza.jpg`, `images/gear.jpg`, `images/sea.jpg`  
+  - Nintendo: `images/zelda.jpg`, `images/mario.jpg`, `images/spa.jpg`, `images/animal.jpg`  
+  - PC: `images/cyperpunk.jpg`, `images/reddead.jpg`, `images/thewhitcher.jpg`, `images/assasins.jpg`  
 
-## Autor
-- **Nome**: Victor Solique
-- **GitHub**: https://github.com/VictorSolique
+### Acesso ao Projeto  
+Você pode acessar o projeto através do seguinte link:  
+[GameSphere](https://victor14791012.github.io/GameSphere/)  
+
+### Autores  
+- **Victor Hugo Lourenço de Carvalho**  
+  - **GitHub**: [Victor14791012](https://github.com/Victor14791012)  
+- **Felipe Marques**  
+  - **GitHub**: [Felipe Marques](https://github.com/FelipeMarques)
