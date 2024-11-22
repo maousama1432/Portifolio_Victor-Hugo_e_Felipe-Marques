@@ -1,5 +1,10 @@
 ## GameSphere  
 
+### Confira o Projeto Final em   
+Você pode acessar o projeto através do seguinte link:  
+[GameSphere](https://maousama1432.github.io/Portifolio_Victor-Hugo_e_Felipe-Marques/)  // Pelo Git Pages
+[GameSphere](https://portifolio-victor-hugo-e-felipe-marques.vercel.app)  // Pela Vercel
+
 ### Descrição do Projeto  
 **GameSphere** é um portfólio online que apresenta uma coleção de jogos para as principais plataformas: PlayStation, Xbox, Nintendo e PC. Cada seção destaca jogos icônicos, com imagens, descrições e detalhes para os fãs de cada console ou estilo. O site é responsivo, garantindo uma experiência fluida tanto em dispositivos móveis quanto em desktops.  
 
